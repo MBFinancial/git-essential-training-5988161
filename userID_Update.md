@@ -33,7 +33,7 @@ SELECT *
 FROM [dbo].[FAC_USER] AS U WITH(NoLock)
 WHERE U.[USER_ID] = 177
  
-----PROD: SQL05A 3/2 3PM (This will be modified to 295) 881 Rows
+----DEV: SQL06TA 
  
 SELECT *  
 FROM [dbo].[FAC_USER] AS U WITH(NoLock)
@@ -44,7 +44,7 @@ SELECT *
 FROM [IPACS].[dbo].[FAC_USER_RESPONSIBILITY] AS R WITH(NoLock)
 WHERE R.[USER_ID] = 177
  
-----PROD: SQL05A 3/2 3PM (This will be modified to 295) 880 Rows
+----DEV: SQL06TA 
  
 SELECT *  
 FROM [IPACS].[dbo].[FAC_USER_RESPONSIBILITY] AS R WITH(NoLock)
